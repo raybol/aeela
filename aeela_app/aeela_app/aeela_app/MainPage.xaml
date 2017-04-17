@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:aeela_app"
+             x:Class="aeela_app.MainPage">
+
+    <MasterDetailPage.Master>
+        <local:MasterPage x:Name="master page">
+            
+        </local:MasterPage>
+    </MasterDetailPage.Master>
+    
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:HomePage>
+                    
+                </local:HomePage>
+            </x:Arguments>
+        </NavigationPage>
+       
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>
