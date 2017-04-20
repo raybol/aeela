@@ -33,7 +33,7 @@ namespace aeela_app
             masterPageItem.Add(new MasterPageItem
             {
                 Title = "Pagar",
-                IconSource = "",
+                IconSource = "icon_pay.png",
                 TargetType = typeof(PayPage)
             });
             ListView.ItemsSource = masterPageItem;
