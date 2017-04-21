@@ -13,14 +13,11 @@ G:\aeela\aeela_app\aeela_app\aeela_app\bin\Debug\Xamarin.Forms.Xaml.pdb
 G:\aeela\aeela_app\aeela_app\aeela_app\bin\Debug\Xamarin.Forms.Xaml.xml
 G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.dll
 G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.pdb
-G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.Views.MenuPage.xaml.g.cs
-G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.Views.HomePage.xaml.g.cs
-G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.Views.RootPage.xaml.g.cs
-G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.Views.SecondPage.xaml.g.cs
-G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.MasterDetail.xaml.g.cs
 G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.MasterPage.xaml.g.cs
 G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.HomePage.xaml.g.cs
 G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.InfoPage.xaml.g.cs
 G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.PayPage.xaml.g.cs
+G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.dll.mdb
+G:\aeela\aeela_app\aeela_app\aeela_app\bin\Debug\aeela_app.dll.mdb
 G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.dll.mdb
 G:\aeela\aeela_app\aeela_app\aeela_app\bin\Debug\aeela_app.dll.mdb
