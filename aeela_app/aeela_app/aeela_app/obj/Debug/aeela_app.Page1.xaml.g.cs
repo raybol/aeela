@@ -11,16 +11,13 @@
 namespace aeela_app {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("G:\\aeela\\aeela_app\\aeela_app\\aeela_app\\Page1.xaml")]
-    public partial class Page1 : global::Xamarin.Forms.MasterDetailPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::aeela_app.Page1Master MasterPage;
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\castro_53471\\Source\\Repos\\aeela\\aeela_app\\aeela_app\\aeela_app\\Page1.xaml" +
+        "")]
+    public partial class Page1 : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page1));
-            MasterPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::aeela_app.Page1Master>(this, "MasterPage");
         }
     }
 }

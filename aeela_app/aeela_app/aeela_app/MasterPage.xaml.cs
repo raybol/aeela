@@ -22,7 +22,7 @@ namespace aeela_app
             masterPageItem.Add(new MasterPageItem
             {
                 Title = "Inicio",
-                IconSource = "",
+                IconSource = "icon_home.png",
                 TargetType = typeof(HomePage)
             });
             masterPageItem.Add(new MasterPageItem
@@ -30,6 +30,12 @@ namespace aeela_app
                 Title = "Información",
                 IconSource = "icon_info.png",
                 TargetType = typeof(InfoPage)
+            });
+            masterPageItem.Add(new MasterPageItem
+            {
+                Title = "Prestamos",
+                IconSource = "icon_loan.png",
+                TargetType = typeof(LoanPage)
             });
             masterPageItem.Add(new MasterPageItem
             {

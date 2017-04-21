@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aeela_app.LoanPage"
+             xmlns:pages="clr-namespace:aeela_app;assembly=aeela_app"
+             Title="Prestamos">
+  <!--Pages can be added as references or inline-->
+  <pages:LoanPageTab1/>
+    <ContentPage Title="Prestamo">
+        <StackLayout>
+            <Label Text="Green"  HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
+            <BoxView Color="Green" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
