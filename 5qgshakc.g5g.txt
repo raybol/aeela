@@ -1,0 +1,971 @@
+﻿Merge branch 'master' of https://github.com/NJCR/aeela
+
+# Conflicts:
+#	aeela_app/.vs/aeela_app/v15/.suo
+#	aeela_app/aeela_app/aeela_app.Android/bin/Debug/aeela_app.Android-Signed.apk
+#	aeela_app/aeela_app/aeela_app.Android/bin/Debug/aeela_app.Android.apk
+#	aeela_app/aeela_app/aeela_app.Android/bin/Debug/aeela_app.Android.dll
+#	aeela_app/aeela_app/aeela_app.Android/bin/Debug/aeela_app.Android.dll.mdb
+#	aeela_app/aeela_app/aeela_app.Android/bin/Debug/aeela_app.Android.pdb
+#	aeela_app/aeela_app/aeela_app.Android/bin/Debug/aeela_app.dll
+#	aeela_app/aeela_app/aeela_app.Android/bin/Debug/aeela_app.dll.mdb
+#	aeela_app/aeela_app/aeela_app.Android/bin/Debug/aeela_app.pdb
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/aeela_app.Android.csprojResolveAssemblyReference.cache
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/aeela_app.Android.dll
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/aeela_app.Android.pdb
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/assets/aeela_app.Android.dll
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/assets/aeela_app.Android.dll.mdb
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/assets/aeela_app.dll
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/assets/aeela_app.dll.mdb
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/aeela_app.Android.apk
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/linkdst/aeela_app.Android.dll
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/linkdst/aeela_app.Android.dll.mdb
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/linksrc/aeela_app.Android.dll
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/linksrc/aeela_app.Android.dll.mdb
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/linksrc/aeela_app.dll
+#	aeela_app/aeela_app/aeela_app.Android/obj/Debug/linksrc/aeela_app.dll.mdb
+#	aeela_app/aeela_app/aeela_app/bin/Debug/aeela_app.dll
+#	aeela_app/aeela_app/aeela_app/bin/Debug/aeela_app.dll.mdb
+#	aeela_app/aeela_app/aeela_app/bin/Debug/aeela_app.pdb
+#	aeela_app/aeela_app/aeela_app/obj/Debug/aeela_app.csproj.FileListAbsolute.txt
+#	aeela_app/aeela_app/aeela_app/obj/Debug/aeela_app.dll
+#	aeela_app/aeela_app/aeela_app/obj/Debug/aeela_app.pdb
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   .vs/ProjectSettings.json
+#	new file:   .vs/VSWorkspaceState.json
+#	new file:   .vs/aeela/v15/.suo
+#	new file:   .vs/slnx.sqlite
+#	modified:   aeela_app/.vs/aeela_app/v15/.suo
+#	modified:   aeela_app/aeela_app/aeela_app.Android/Properties/AndroidManifest.xml
+#	modified:   aeela_app/aeela_app/aeela_app.Android/Resources/Resource.Designer.cs
+#	modified:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-hdpi/icon.png
+#	copied:     aeela_app/aeela_app/aeela_app.Android/Resources/drawable-hdpi/icon.png -> aeela_app/aeela_app/aeela_app.Android/Resources/drawable-hdpi/icon1.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-hdpi/icon_info.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-hdpi/icon_pay.png
+#	modified:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xhdpi/icon.png
+#	copied:     aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xhdpi/icon.png -> aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xhdpi/icon1.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xhdpi/icon_info.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xhdpi/icon_pay.png
+#	modified:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xxhdpi/icon.png
+#	copied:     aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xxhdpi/icon.png -> aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xxhdpi/icon1.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xxhdpi/icon_info.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable-xxhdpi/icon_pay.png
+#	modified:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable/icon.png
+#	copied:     aeela_app/aeela_app/aeela_app.Android/Resources/drawable/icon.png -> aeela_app/aeela_app/aeela_app.Android/Resources/drawable/icon1.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable/icon_info.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/Resources/drawable/icon_pay.png
+#	modified:   aeela_app/aeela_app/aeela_app.Android/aeela_app.Android.csproj
+#	modified:   aeela_app/aeela_app/aeela_app.Android/aeela_app.Android.csproj.user
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/42f75d1224b6af09.deployment
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/CoreCompileInputs.cache
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/FA35CS902727.deployment
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/aeela_app.Android.csproj.FileListAbsolute.txt
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/aeela_app/android/R.java
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes.dex
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes/aeela_app/android/R$drawable.class
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes/aeela_app/android/R$id.class
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes/aeela_app/android/R$integer.class
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes/aeela_app/android/R$interpolator.class
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes/aeela_app/android/R$layout.class
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes/aeela_app/android/R$string.class
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes/aeela_app/android/R$style.class
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/classes/aeela_app/android/R$styleable.class
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/bin/packaged_resources
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/android/src/aeela_app/android/R.java
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/devices.cache
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/libraryprojectimports.cache
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-hdpi/icon.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-hdpi/icon_info.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-hdpi/icon_pay.png
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-xhdpi/icon.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-xhdpi/icon_info.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-xhdpi/icon_pay.png
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-xxhdpi/icon.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-xxhdpi/icon_info.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable-xxhdpi/icon_pay.png
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable/icon.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable/icon_info.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/res/drawable/icon_pay.png
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resolved_assemblies.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/0FB4F22F3F155AEA75E9962F78D30338/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/0FB4F22F3F155AEA75E9962F78D30338/R.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/0FB4F22F3F155AEA75E9962F78D30338/aapt/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/0FB4F22F3F155AEA75E9962F78D30338/cache.stamp
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/0FB4F22F3F155AEA75E9962F78D30338/classes.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/0FB4F22F3F155AEA75E9962F78D30338/res/values-v23/values-v23.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/0FB4F22F3F155AEA75E9962F78D30338/res/values/values.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2AF5EB70ABA198CBB00954932690FA45/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2AF5EB70ABA198CBB00954932690FA45/aapt/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2AF5EB70ABA198CBB00954932690FA45/cache.stamp
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2AF5EB70ABA198CBB00954932690FA45/classes.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/R.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/aapt/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/annotations.zip
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/cache.stamp
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/classes.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/proguard.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/public.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/anim-v21/design_bottom_sheet_slide_in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/anim-v21/design_bottom_sheet_slide_out.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/anim/design_bottom_sheet_slide_in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/anim/design_bottom_sheet_slide_out.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/anim/design_fab_in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/anim/design_fab_out.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/anim/design_snackbar_in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/anim/design_snackbar_out.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/drawable/design_fab_background.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/drawable/design_snackbar_background.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout-sw600dp-v13/design_layout_snackbar.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_bottom_sheet_dialog.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_layout_snackbar.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_layout_snackbar_include.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_layout_tab_icon.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_layout_tab_text.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_menu_item_action_area.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_navigation_item.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_navigation_item_header.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_navigation_item_separator.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_navigation_item_subheader.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_navigation_menu.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/layout/design_navigation_menu_item.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/values-land/values-land.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/values-sw600dp-v13/values-sw600dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/2F2B2B44726C604380899E4861316409/res/values/values.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/R.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/aapt/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/annotations.zip
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/cache.stamp
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/classes.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/public.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_fade_in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_fade_out.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_grow_fade_in_from_bottom.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_popup_enter.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_popup_exit.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_shrink_fade_out_from_bottom.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_slide_in_bottom.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_slide_in_top.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_slide_out_bottom.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/anim/abc_slide_out_top.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color-v23/abc_color_highlight_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_background_cache_hint_selector_material_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_background_cache_hint_selector_material_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_primary_text_disable_only_material_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_primary_text_disable_only_material_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_primary_text_material_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_primary_text_material_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_search_url_text.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_secondary_text_material_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/abc_secondary_text_material_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/switch_thumb_material_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/color/switch_thumb_material_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-v21/abc_action_bar_item_background_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-v21/abc_btn_colored_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-v21/abc_edit_text_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-v23/abc_control_background_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_btn_borderless_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_btn_check_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_btn_colored_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_btn_default_mtrl_shape.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_btn_radio_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_cab_background_internal_bg.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_cab_background_top_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_dialog_material_background_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_dialog_material_background_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_edit_text_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_item_background_holo_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_item_background_holo_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_list_selector_background_transition_holo_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_list_selector_holo_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_list_selector_holo_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_ratingbar_full_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_ratingbar_indicator_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_ratingbar_small_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_seekbar_thumb_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_seekbar_track_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_spinner_textfield_background_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_switch_thumb_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_tab_indicator_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_text_cursor_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/drawable/abc_textfield_search_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_action_bar_title_item.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_action_bar_up_container.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_action_bar_view_list_nav_layout.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_action_menu_item_layout.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_action_menu_layout.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_action_mode_bar.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_action_mode_close_item_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_activity_chooser_view.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_activity_chooser_view_list_item.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_alert_dialog_button_bar_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_alert_dialog_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_dialog_title_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_expanded_menu_layout.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_list_menu_item_checkbox.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_list_menu_item_icon.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_list_menu_item_layout.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_list_menu_item_radio.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_popup_menu_item_layout.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_screen_content_include.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_screen_simple.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_screen_simple_overlay_action_mode.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_screen_toolbar.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_search_dropdown_item_icons_2line.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_search_view.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/abc_select_dialog_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/notification_media_action.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/notification_media_cancel_action.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/notification_template_big_media.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/notification_template_big_media_narrow.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/notification_template_lines.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/notification_template_media.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/notification_template_part_chronometer.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/notification_template_part_time.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/select_dialog_item_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/select_dialog_multichoice_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/select_dialog_singlechoice_material.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/layout/support_simple_spinner_dropdown_item.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-af/values-af.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-am/values-am.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ar/values-ar.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-az-rAZ/values-az-rAZ.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-bg/values-bg.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-bn-rBD/values-bn-rBD.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ca/values-ca.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-cs/values-cs.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-da/values-da.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-de/values-de.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-el/values-el.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-en-rAU/values-en-rAU.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-en-rGB/values-en-rGB.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-en-rIN/values-en-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-es-rUS/values-es-rUS.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-es/values-es.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-et-rEE/values-et-rEE.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-eu-rES/values-eu-rES.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-fa/values-fa.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-fi/values-fi.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-fr-rCA/values-fr-rCA.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-fr/values-fr.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-gl-rES/values-gl-rES.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-gu-rIN/values-gu-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-h320dp-v13/values-h320dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-h720dp-v13/values-h720dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-hdpi-v4/values-hdpi-v4.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-hi/values-hi.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-hr/values-hr.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-hu/values-hu.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-hy-rAM/values-hy-rAM.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-in/values-in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-is-rIS/values-is-rIS.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-it/values-it.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-iw/values-iw.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ja/values-ja.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ka-rGE/values-ka-rGE.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-kk-rKZ/values-kk-rKZ.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-km-rKH/values-km-rKH.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-kn-rIN/values-kn-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ko/values-ko.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ky-rKG/values-ky-rKG.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-land/values-land.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-large-v4/values-large-v4.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ldltr-v21/values-ldltr-v21.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-lo-rLA/values-lo-rLA.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-lt/values-lt.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-lv/values-lv.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-mk-rMK/values-mk-rMK.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ml-rIN/values-ml-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-mn-rMN/values-mn-rMN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-mr-rIN/values-mr-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ms-rMY/values-ms-rMY.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-my-rMM/values-my-rMM.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-nb/values-nb.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ne-rNP/values-ne-rNP.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-night-v8/values-night-v8.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-nl/values-nl.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-pa-rIN/values-pa-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-pl/values-pl.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-port/values-port.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-pt-rBR/values-pt-rBR.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-pt-rPT/values-pt-rPT.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-pt/values-pt.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ro/values-ro.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ru/values-ru.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-si-rLK/values-si-rLK.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-sk/values-sk.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-sl/values-sl.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-sq-rAL/values-sq-rAL.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-sr/values-sr.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-sv/values-sv.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-sw/values-sw.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-sw600dp-v13/values-sw600dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ta-rIN/values-ta-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-te-rIN/values-te-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-th/values-th.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-tl/values-tl.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-tr/values-tr.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-uk/values-uk.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-ur-rPK/values-ur-rPK.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-uz-rUZ/values-uz-rUZ.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v11/values-v11.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v12/values-v12.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v13/values-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v14/values-v14.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v17/values-v17.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v18/values-v18.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v21/values-v21.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v22/values-v22.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-v23/values-v23.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-vi/values-vi.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-w360dp-v13/values-w360dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-w480dp-v13/values-w480dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-w500dp-v13/values-w500dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-w600dp-v13/values-w600dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-w720dp-v13/values-w720dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-xlarge-land-v4/values-xlarge-land-v4.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-xlarge-v4/values-xlarge-v4.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-zh-rCN/values-zh-rCN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-zh-rHK/values-zh-rHK.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-zh-rTW/values-zh-rTW.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values-zu/values-zu.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/3122E083742CB2D104B982B3CCC9628A/res/values/values.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/9B49B4D88D4DA3CE8980CEE3351AA0B1/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/9B49B4D88D4DA3CE8980CEE3351AA0B1/aapt/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/9B49B4D88D4DA3CE8980CEE3351AA0B1/cache.stamp
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/9B49B4D88D4DA3CE8980CEE3351AA0B1/classes.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/R.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/aapt/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/annotations.zip
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/cache.stamp
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/classes.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/libs/internal_impl-23.3.0.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_audiotrack.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_audiotrack_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_bluetooth_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_bluetooth_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_disabled_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_off_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_on_0_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_on_1_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_on_2_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_on_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_cast_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_close_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_close_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_media_pause.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_media_play.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_media_route_disabled_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_media_route_off_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_media_route_on_0_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_media_route_on_1_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_media_route_on_2_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_media_route_on_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_pause_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_pause_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_play_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_play_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_speaker_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_speaker_group_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_speaker_group_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_speaker_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_tv_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-hdpi-v4/ic_tv_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_audiotrack.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_audiotrack_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_bluetooth_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_bluetooth_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_disabled_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_off_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_on_0_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_on_1_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_on_2_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_on_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_cast_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_close_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_close_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_media_pause.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_media_play.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_media_route_disabled_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_media_route_off_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_media_route_on_0_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_media_route_on_1_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_media_route_on_2_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_media_route_on_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_pause_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_pause_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_play_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_play_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_speaker_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_speaker_group_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_speaker_group_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_speaker_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_tv_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-mdpi-v4/ic_tv_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_audiotrack.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_audiotrack_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_bluetooth_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_bluetooth_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_disabled_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_off_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_on_0_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_on_1_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_on_2_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_on_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_cast_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_close_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_close_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_media_pause.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_media_play.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_media_route_disabled_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_media_route_off_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_media_route_on_0_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_media_route_on_1_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_media_route_on_2_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_media_route_on_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_pause_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_pause_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_play_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_play_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_speaker_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_speaker_group_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_speaker_group_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_speaker_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_tv_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xhdpi-v4/ic_tv_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_audiotrack.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_audiotrack_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_bluetooth_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_bluetooth_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_disabled_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_off_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_on_0_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_on_1_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_on_2_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_on_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_cast_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_close_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_close_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_media_pause.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_media_play.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_media_route_disabled_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_media_route_off_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_media_route_on_0_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_media_route_on_1_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_media_route_on_2_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_media_route_on_mono_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_pause_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_pause_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_play_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_play_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_speaker_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_speaker_group_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_speaker_group_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_speaker_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_tv_dark.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxhdpi-v4/ic_tv_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_cast_grey.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_cast_white.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_close_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00001.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00002.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00003.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00004.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00005.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00006.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00007.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00008.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00009.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00010.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00011.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00012.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00013.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00014.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_collapse_00015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00000.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00001.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00002.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00003.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00004.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00005.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00006.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00007.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00008.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00009.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00010.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00011.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00012.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00013.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00014.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_expand_00015.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_pause_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable-xxxhdpi-v4/ic_play_light.png
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/ic_collapse.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/ic_expand.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_dialog_material_background_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_dialog_material_background_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_audiotrack_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_cast_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_cast_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_close_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_close_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_media_route_connecting_mono_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_media_route_connecting_mono_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_media_route_mono_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_media_route_mono_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_pause_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_pause_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_play_dark.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/drawable/mr_ic_play_light.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/interpolator/mr_fast_out_slow_in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/interpolator/mr_linear_out_slow_in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/layout/mr_chooser_dialog.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/layout/mr_chooser_list_item.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/layout/mr_controller_material_dialog_b.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/layout/mr_controller_volume_item.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/layout/mr_playback_control.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/layout/mr_volume_control.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-af/values-af.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-am/values-am.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ar/values-ar.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-az-rAZ/values-az-rAZ.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-bg/values-bg.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-bn-rBD/values-bn-rBD.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ca/values-ca.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-cs/values-cs.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-da/values-da.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-de/values-de.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-el/values-el.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-en-rAU/values-en-rAU.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-en-rGB/values-en-rGB.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-en-rIN/values-en-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-es-rUS/values-es-rUS.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-es/values-es.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-et-rEE/values-et-rEE.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-eu-rES/values-eu-rES.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-fa/values-fa.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-fi/values-fi.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-fr-rCA/values-fr-rCA.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-fr/values-fr.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-gl-rES/values-gl-rES.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-gu-rIN/values-gu-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-hi/values-hi.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-hr/values-hr.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-hu/values-hu.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-hy-rAM/values-hy-rAM.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-in/values-in.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-is-rIS/values-is-rIS.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-it/values-it.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-iw/values-iw.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ja/values-ja.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ka-rGE/values-ka-rGE.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-kk-rKZ/values-kk-rKZ.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-km-rKH/values-km-rKH.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-kn-rIN/values-kn-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ko/values-ko.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ky-rKG/values-ky-rKG.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-land/values-land.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-lo-rLA/values-lo-rLA.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-lt/values-lt.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-lv/values-lv.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-mk-rMK/values-mk-rMK.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ml-rIN/values-ml-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-mn-rMN/values-mn-rMN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-mr-rIN/values-mr-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ms-rMY/values-ms-rMY.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-my-rMM/values-my-rMM.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-nb/values-nb.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ne-rNP/values-ne-rNP.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-nl/values-nl.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-pa-rIN/values-pa-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-pl/values-pl.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-pt-rBR/values-pt-rBR.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-pt-rPT/values-pt-rPT.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-pt/values-pt.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ro/values-ro.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ru/values-ru.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-si-rLK/values-si-rLK.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-sk/values-sk.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-sl/values-sl.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-sq-rAL/values-sq-rAL.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-sr/values-sr.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-sv/values-sv.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-sw/values-sw.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-sw600dp-v13/values-sw600dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-sw720dp-v13/values-sw720dp-v13.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ta-rIN/values-ta-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-te-rIN/values-te-rIN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-th/values-th.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-tl/values-tl.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-tr/values-tr.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-uk/values-uk.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-ur-rPK/values-ur-rPK.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-uz-rUZ/values-uz-rUZ.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-vi/values-vi.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-zh-rCN/values-zh-rCN.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-zh-rHK/values-zh-rHK.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-zh-rTW/values-zh-rTW.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values-zu/values-zu.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/B297244414F513CFB61775F3E7ED405E/res/values/values.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/R.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/aapt/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/annotations.zip
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/cache.stamp
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/classes.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/proguard.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/public.txt
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CB05567E81C878FBC9DD001D0CCC34A1/res/values/values.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/aapt/AndroidManifest.xml
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/aidl/android/support/v4/media/MediaMetadataCompat.aidl
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/aidl/android/support/v4/media/RatingCompat.aidl
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/aidl/android/support/v4/media/session/MediaSessionCompat.aidl
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/aidl/android/support/v4/media/session/PlaybackStateCompat.aidl
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/aidl/android/support/v4/os/ResultReceiver.aidl
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/annotations.zip
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/cache.stamp
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/classes.jar
+#	new file:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcecache/CE51BA4CAC8327F0D9AA5742F8D64995/libs/internal_impl-23.3.0.jar
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcepaths.cache
+#	modified:   aeela_app/aeela_app/aeela_app.UWP/aeela_app.UWP.nuget.targets
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Debug/App.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Debug/App.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Debug/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Debug/MainPage.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Debug/MainPage.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Debug/XamlSaveStateFile.xml
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Debug/XamlTypeInfo.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Release/App.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Release/App.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Release/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Release/MainPage.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Release/MainPage.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Release/XamlSaveStateFile.xml
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/ARM/Release/XamlTypeInfo.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Debug/App.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Debug/App.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Debug/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Debug/MainPage.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Debug/MainPage.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Debug/XamlSaveStateFile.xml
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Debug/XamlTypeInfo.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Release/App.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Release/App.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Release/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Release/MainPage.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Release/MainPage.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Release/XamlSaveStateFile.xml
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x64/Release/XamlTypeInfo.g.cs
+#	modified:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Debug/App.g.i.cs
+#	modified:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Debug/CoreCompileInputs.cache
+#	modified:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	modified:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Debug/MainPage.g.i.cs
+#	modified:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Debug/XamlSaveStateFile.xml
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Release/App.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Release/App.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Release/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Release/MainPage.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Release/MainPage.g.i.cs
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Release/XamlSaveStateFile.xml
+#	new file:   aeela_app/aeela_app/aeela_app.UWP/obj/x86/Release/XamlTypeInfo.g.cs
+#	modified:   aeela_app/aeela_app/aeela_app.UWP/project.lock.json
+#	new file:   aeela_app/aeela_app/aeela_app.iOS/obj/iPhone/Ad-Hoc/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app.iOS/obj/iPhone/AppStore/CoreCompileInputs.cache
+#	modified:   aeela_app/aeela_app/aeela_app.iOS/obj/iPhone/Debug/CoreCompileInputs.cache
+#	modified:   aeela_app/aeela_app/aeela_app.iOS/obj/iPhone/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	new file:   aeela_app/aeela_app/aeela_app.iOS/obj/iPhone/Release/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app.iOS/obj/iPhoneSimulator/Debug/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app.iOS/obj/iPhoneSimulator/Release/CoreCompileInputs.cache
+#	modified:   aeela_app/aeela_app/aeela_app/HomePage.xaml
+#	modified:   aeela_app/aeela_app/aeela_app/InfoPage.xaml
+#	modified:   aeela_app/aeela_app/aeela_app/MasterPage.xaml.cs
+#	modified:   aeela_app/aeela_app/aeela_app/obj/Debug/CoreCompileInputs.cache
+#	modified:   aeela_app/aeela_app/aeela_app/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	modified:   aeela_app/aeela_app/aeela_app/obj/Debug/aeela_app.HomePage.xaml.g.cs
+#	modified:   aeela_app/aeela_app/aeela_app/obj/Debug/aeela_app.InfoPage.xaml.g.cs
+#	modified:   aeela_app/aeela_app/aeela_app/obj/Debug/aeela_app.MasterPage.xaml.g.cs
+#	modified:   aeela_app/aeela_app/aeela_app/obj/Debug/aeela_app.csproj.FileListAbsolute.txt
+#	modified:   aeela_app/aeela_app/aeela_app/obj/Debug/aeela_app.csprojResolveAssemblyReference.cache
+#	new file:   aeela_app/aeela_app/aeela_app/obj/Release/CoreCompileInputs.cache
+#	new file:   aeela_app/aeela_app/aeela_app/obj/Release/aeela_app.App.xaml.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app/obj/Release/aeela_app.HomePage.xaml.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app/obj/Release/aeela_app.InfoPage.xaml.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app/obj/Release/aeela_app.MainPage.xaml.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app/obj/Release/aeela_app.MasterPage.xaml.g.cs
+#	new file:   aeela_app/aeela_app/aeela_app/obj/Release/aeela_app.PayPage.xaml.g.cs
+#
+# Changes not staged for commit:
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/CoreCompileInputs.cache
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	modified:   aeela_app/aeela_app/aeela_app.Android/obj/Debug/libraryprojectimports.cache
+#	deleted:    aeela_app/aeela_app/aeela_app.Android/obj/Debug/resourcepaths.cache
+#
+

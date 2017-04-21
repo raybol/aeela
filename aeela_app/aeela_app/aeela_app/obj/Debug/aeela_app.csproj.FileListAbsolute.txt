@@ -49,3 +49,7 @@ C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app\bin\Debug
 C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.dll.mdb
 C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app\bin\Debug\aeela_app.dll.mdb
 >>>>>>> 839e29e6cd5035f42a5fbe47db8d874f3f5ffcdb
+G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.dll.mdb
+G:\aeela\aeela_app\aeela_app\aeela_app\bin\Debug\aeela_app.dll.mdb
+G:\aeela\aeela_app\aeela_app\aeela_app\obj\Debug\aeela_app.dll.mdb
+G:\aeela\aeela_app\aeela_app\aeela_app\bin\Debug\aeela_app.dll.mdb
