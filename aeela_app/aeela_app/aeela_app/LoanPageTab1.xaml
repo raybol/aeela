@@ -6,6 +6,6 @@
   <StackLayout>
     <Label Text="Cuenta" Margin="5" />
     <Label Text="Red" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
-    <BoxView Color="Red" VerticalOptions="FillAndExpand" />
+    <BoxView Color="White" VerticalOptions="FillAndExpand" />
   </StackLayout>
 </ContentPage>

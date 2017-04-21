@@ -15,6 +15,22 @@ namespace aeela_app
         public LoanPageTab1()
         {
             InitializeComponent();
+
+            Content = new TableView
+            {
+                Intent = TableIntent.Form,
+                Root = new TableRoot("Table Title") {
+                    new TableSection ("Número de Cuenta") {
+                        new TextCell {
+                            Text = "\n\n00000000"
+                        
+                        },
+                        
+                    },
+                }
+
+            };
+            
         }
     }
 }

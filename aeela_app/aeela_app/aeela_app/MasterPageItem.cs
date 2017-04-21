@@ -8,10 +8,12 @@ namespace aeela_app
 {
     public class MasterPageItem
     {
-        public string Title { get; set; }
+        public String Title { get; set; }
 
         public string IconSource { get; set; }
 
         public Type TargetType { get; set; }
+
+ 
     }
 }

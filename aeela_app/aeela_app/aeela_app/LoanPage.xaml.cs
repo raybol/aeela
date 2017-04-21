@@ -16,6 +16,8 @@ namespace aeela_app
         public LoanPage()
         {
             InitializeComponent();
+
+            
         }
     }
 }

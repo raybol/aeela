@@ -17,8 +17,9 @@ namespace aeela_app
         {
             InitializeComponent();
 
-            var masterPageItem = new List<MasterPageItem>();
             
+            var masterPageItem = new List<MasterPageItem>();
+
             masterPageItem.Add(new MasterPageItem
             {
                 Title = "Inicio",

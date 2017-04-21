@@ -6,10 +6,10 @@
              Title="Prestamos">
   <!--Pages can be added as references or inline-->
   <pages:LoanPageTab1/>
-    <ContentPage Title="Prestamo">
+    <ContentPage Title="Prestamos">
         <StackLayout>
-            <Label Text="Green"  HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
-            <BoxView Color="Green" VerticalOptions="FillAndExpand" />
+            <Label Text="Tipo de Prestamo"  HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
+            <BoxView Color="White" VerticalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage>
 </TabbedPage>
