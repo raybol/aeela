@@ -18,16 +18,17 @@ namespace aeela_app
             InitializeComponent();
 
             var masterPageItem = new List<MasterPageItem>();
+            
             masterPageItem.Add(new MasterPageItem
             {
-                Title = "HomePage",
+                Title = "Inicio",
                 IconSource = "",
                 TargetType = typeof(HomePage)
             });
             masterPageItem.Add(new MasterPageItem
             {
-                Title = "Info",
-                IconSource = "",
+                Title = "Información",
+                IconSource = "icon_info.png",
                 TargetType = typeof(InfoPage)
             });
             masterPageItem.Add(new MasterPageItem

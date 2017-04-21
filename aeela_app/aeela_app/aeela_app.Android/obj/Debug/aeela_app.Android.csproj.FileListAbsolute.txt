@@ -143,5 +143,13 @@ C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\o
 C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\res\drawable\icon_info.png
+C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\res\drawable\icon_pay.png
+C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\res\drawable-hdpi\icon_info.png
+C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\res\drawable-hdpi\icon_pay.png
+C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\res\drawable-xhdpi\icon_info.png
+C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\res\drawable-xhdpi\icon_pay.png
+C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\res\drawable-xxhdpi\icon_info.png
+C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\res\drawable-xxhdpi\icon_pay.png
 C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\obj\Debug\aeela_app.Android.dll.mdb
 C:\Users\castro_53471\Source\Repos\aeela\aeela_app\aeela_app\aeela_app.Android\bin\Debug\aeela_app.Android.dll.mdb
