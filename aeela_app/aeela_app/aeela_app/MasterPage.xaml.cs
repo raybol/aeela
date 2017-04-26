@@ -9,10 +9,11 @@ using Xamarin.Forms.Xaml;
 
 namespace aeela_app
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    
     public partial class MasterPage : ContentPage
     {
         public ListView ListView { get { return listView; } }
+
         public MasterPage()
         {
             InitializeComponent();
@@ -37,7 +38,7 @@ namespace aeela_app
                 IconSource = "icon_pay.png",
                 TargetType = typeof(PayPage)
             });
-            ListView.ItemsSource = masterPageItem;
+            listView.ItemsSource = masterPageItem;
         }
     }
 }

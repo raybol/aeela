@@ -13,6 +13,7 @@
                 SeparatorVisibility="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>
+                        
                         <ImageCell
                             Text="{Binding Title}"
                             ImageSource="{Binding IconSource}"></ImageCell>
