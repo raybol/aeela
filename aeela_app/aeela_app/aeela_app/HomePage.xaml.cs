@@ -15,6 +15,7 @@ namespace aeela_app
         public HomePage()
         {
             InitializeComponent();
+            
         }
     }
 }
